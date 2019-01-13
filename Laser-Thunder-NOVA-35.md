@@ -55,7 +55,7 @@
 	- Unterbrechung, Fortsetzen
 	- Änderung der Werte (Geschwindigkeit, Energie, Zuluft, ...)
 - [Sonstiges](#sonstiges)
-	- Manuelles Schneiden (Trennen von großen Stücken)
+	- [Manuelles Schneiden](#manuelles-schneiden)
 	- [Schmauchspuren](#schmauchspuren)
 - [FAQ](#faq)
 - [Links zu weiterführender Dokumentation](#links-zu-weiterführender-dokumentation)
@@ -107,7 +107,18 @@ Das Ausschalten erfolgt in umgekehrter Reihenfolge zum [Einschalten](#einschalte
 	### Änderung der Werte (Geschwindigkeit, Energie, Zuluft, ...)
 
 ## Sonstiges
-	### Manuelles Schneiden (Trennen von großen Stücken)
+
+### Manuelles Schneiden
+
+Große Materialstücke können auch manuell mit dem Laser getrennt werden. Dazu platziert man das Material im Laser und richtet es ein (fokusieren).
+
+1. Deckel schließen
+2. Reset-Knopf drücken
+3. An Startposition fahren
+4. Bei Bedarf die Werte für Geschwindigkeit und Power anpassen
+5. Zuluft einschalten - Knopf links am Laser für 5 Sek. drücken
+6. _Laser_ Button an Display drücken und halten
+7. Laserstrahl mit Cursortasten am Display entsprechend verfahren
 
 ### Schmauchspuren
 
