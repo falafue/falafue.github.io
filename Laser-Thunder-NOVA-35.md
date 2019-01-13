@@ -1,5 +1,24 @@
 ![DRAFT](https://img.shields.io/badge/Status-ENTWURF-red.svg)
 
+**Todo**
+
+- Vorbereitung der Dateien
+	- Farben für Laserprofile
+	- Parameter
+	- Daten an Laser senden
+- Lasern
+	- Allgemein
+		- Bedienelemente
+		- Dateien löschen
+	- Material fokusieren
+	- Startposition
+	- Box abfahren
+	- Start des Laserprogramms
+	- Paramerter prüfen/anpassen
+		- Geschwindigkeit, Power, Zuluft, ...
+
+---------------------------------------------
+
 # Laser Thunder NOVA 35
 
 ## :warning: Sicherheitshinweise
@@ -23,6 +42,8 @@
 		- Werte für Schneiden, Gravieren, Markieren, ...
 	- Toleranzen beim Schneiden
 - [Laser ein-/ausschalten](#laser-ein-ausschalten)
+	- [Einschalten](#einschalten)
+	- [Ausschalten](#ausschalten)
 - [Laser starten und verwenden](#laser-starten-und-verwenden)
 	- Bedienelemente 
 	- Daten an Laser senden
@@ -35,6 +56,7 @@
 	- Änderung der Werte (Geschwindigkeit, Energie, Zuluft, ...)
 - [Sonstiges](#sonstiges)
 	- Manuelles Schneiden (Trennen von großen Stücken)
+	- [Schmauchspuren](#schmauchspuren)
 - [FAQ](#faq)
 - [Links zu weiterführender Dokumentation](#links-zu-weiterführender-dokumentation)
 
@@ -60,6 +82,19 @@ Weitere nützliche Informationen zu Materialien sind unter anderem auf den [Wiki
 
 ## Laser ein-/ausschalten
 
+### Einschalten
+
+1. Kompressor für Laser-Zuluft einschalten (Dreierblock Sicherungen im Sicherungsschrank neben der Theke)
+2. Abluft im Nebenraum einschalten (Wippschalter an der Steckdose)
+	- Motorgeräusche sind zu hören (evtl. dauert es kurz)
+3. Laser einschalten (rechts unten), Hauptschalter und die beiden Wippschalter müssen auf 1 stehen
+4. Roten Reset-Knopf drücken (oberhalb des Displays) - Signallampe wird grün
+5. Dateien können übertragen werden
+
+### Ausschalten
+
+Das Ausschalten erfolgt in umgekehrter Reihenfolge zum [Einschalten](#einschalten).
+
 ## Laser starten und verwenden
 	### Bedienelemente 
 	### Daten an Laser senden
@@ -73,6 +108,36 @@ Weitere nützliche Informationen zu Materialien sind unter anderem auf den [Wiki
 
 ## Sonstiges
 	### Manuelles Schneiden (Trennen von großen Stücken)
+
+### Schmauchspuren
+
+Schmauchspuren auf der Unterseite eines Werkstücks entstehen, wenn der Laser auf die Wabenstruktur des Tisches auftrifft.
+
+#### Schmauchspuren vermeiden
+
+Um Schmauchspuren zu vermeiden oder zu vermindern, gibt es unter anderem folgende Möglichkeiten:
+
+- Werkstück erhöht lagern, so dass kein direkter Kontakt zur Wabenstruktur vorhanden ist. Auf sicheren Halt des Werkstücks achten!
+- Papier unter zu schneidendes Werkstück legen, ca. 80% der Schmauchspuren bleiben am Papier anhaften und nicht am Werkstück
+- Abdeckfolie bzw. Abdeckpapier aufbringen - z.B. hier: [Abdeckfolie, Papier-weiß](https://www.cameo-laser.de/shop/index.php?route=product/product&path=60&product_id=95)
+
+##### Weitere Informationen
+
+Weitere Informationen über optimiertes CO2-Laserschneiden finden sich im Artikel [Perfekte Schnittkanten mit pfiffiger Absaugung](https://www.maschinenmarkt.vogel.de/perfekte-schnittkanten-mit-pfiffiger-absaugung-a-509280/)
+
+> **Je schneller die Absaugung, desto geringer die Nacharbeit**
+> 
+> Technische Einrichtungen zur Absaugung von Rauchgasen sind bei modernen Lasersystemen der Standard. 
+> Dass die Art und Weise der Absaugung allerdings Einfluss auf die Schnittkanten hat, ist nicht jedem gleich klar.
+> Je nach Werkstoff entsteht beim Schneiden Schmauch, der zu unerwünschten Verfärbungen 
+> respektive Ablagerungen an der Schnittkante führt. Um aufwendige Nacharbeiten zu vermeiden, 
+> muss dieser Schmauch schon bei der Entstehung evakuiert werden – je schneller, desto besser. 
+> Die Absaugung muss also direkt am Schnittspalt erfolgen. Gute Absaugtechniken saugen die Gase nicht ausschließlich 
+> nach unten weg, sondern gleichzeitig nach oben, und das möglichst gleichmäßig und parallel zum Laserstrahl.
+
+
+
+-----------------------------------------------
 
 ## FAQ
 Nachfolgend die häufigsten Fragen und Antworten im Umgang mit dem Thunder Laser NOVA 35.
