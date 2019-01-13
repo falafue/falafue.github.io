@@ -1,10 +1,19 @@
+![DRAFT](https://img.shields.io/badge/Status-ENTWURF-red.svg)
+
 # Laser Thunder NOVA 35
 
-![DRAFT](https://img.shields.io/badge/Status-ENTWURF-red.svg)
+## :warning: Sicherheitshinweise :fire: :boom:
+
+:no_entry_sign: Arbeiten am Laser dürfen nur nach vorheriger Einweisung ausgeführt werden!
+
+- Während der Laser läuft, immer dabei stehen bleiben
+- CO² Feuerlöscher steht für den Brandfall neben der Maschine
+- Notaus-Knopf befindet sich rechts oben auf der Maschine
 
 ## Inhaltsverzeichnis
 
-- **Sicherheit**
+- :warning: [**Sicherheitshinweise**](#sicherheitshinweise)
+
 - Vorbereitung
 	- Daten aufbereiten
 		- Profile berücksichtigen (Schneiden, Gravieren, ...)
