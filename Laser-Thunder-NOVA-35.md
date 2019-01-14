@@ -112,6 +112,8 @@ Das Ausschalten erfolgt in umgekehrter Reihenfolge zum [Einschalten](#einschalte
 
 Große Materialstücke können auch manuell mit dem Laser getrennt werden. Dazu platziert man das Material im Laser und richtet es ein (fokusieren).
 
+Wichtig beim manuellen Schneiden ist, dass die Zuluft von Hand eingeschaltet werden muss.
+
 1. Deckel schließen
 2. Reset-Knopf drücken
 3. An Startposition fahren
@@ -150,11 +152,28 @@ Weitere Informationen über optimiertes CO2-Laserschneiden finden sich im Artike
 
 -----------------------------------------------
 
+
+
 ## FAQ
 Nachfolgend die häufigsten Fragen und Antworten im Umgang mit dem Thunder Laser NOVA 35.
 
+**Wieso startet der Laser nicht, wenn ich auf "Start-Pause" drücke?**  
+Wahrscheinlich leuchtet die Lampe noch rot. Deckel schließen und auf den Reset-Knopf drücken. Bitte auch die Anzeige auf dem Display beachten, evtl. muss hier noch ein Dialog bestätigt werden.
+
+**Wieso leuchtet die rote Lampe?**  
+Vermutlich ist oder war der Deckel geöffnet und der Reset-Knopf wurde (noch) nicht gedrückt. Auch der NOT-AUS Knopf könnte gedrückt sein.
+
+**Wie kann ich von Hand verfahren/positionieren?**  
+Deckel schließen, Reset-Knopf drücken und mit den Cursor-Tasten von Hand an die gewünschte Position fahren.
+
+**Wie setze ich die Startposition für meine Datei?**  
+An die gewünschte Startposition fahren und auf den Button "Startposition" klicken. Bitte vor dem Lasern nicht vergessen den Fokus zu setzen.
+
+**Wie schalte ich die Zuluft von Hand ein?**  
+Auf der linken Seite des Lasers den Knopf für 5 Sekunden drücken und dann loslassen.
+
 **Wie groß ist die _Schnittbreite_ des Laserstrahls?**  
-Die Schnittbreite beträgt **~ 0,2 mm**
+Die Schnittbreite beträgt **~ 0,2 mm**.
 
 **Bis zu welcher Materialdick kann der Laser schneiden?**  
 Die maximal mögliche Materialstärke zum Schneiden beträgt ca. **8 mm**.
