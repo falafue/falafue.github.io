@@ -27,27 +27,21 @@
 
 ## Inhaltsverzeichnis
 
-- [Sicherheitshinweise](#sicherheitshinweise)
+- [Sicherheitshinweise](#:warning:-sicherheitshinweise)
 - [Material](#material)
 - [Daten aufbereiten](#daten-aufbereiten)
-	- [Profile und Farben](#profile-und-farben)
+	- [Mapping](#mapping)
 	- [Toleranzen](#toleranzen)
-- [Laser ein-/ausschalten](#laser-ein-ausschalten)
-	- [Einschalten](#einschalten)
-	- [Ausschalten](#ausschalten)
-- [Laser starten und verwenden](#laser-starten-und-verwenden)
-	- Bedienelemente 
-	- Daten an Laser senden
-		- Löschen von Daten
-	- Material einlegen
-		- Fokusieren (Höhe des Materials)
-	- Startposition festlegen/Positionierung des Lasers
-	- Programm starten/stoppen
-	- Unterbrechung, Fortsetzen
-	- Änderung der Werte (Geschwindigkeit, Energie, Zuluft, ...)
-- [Sonstiges](#sonstiges)
+- [Laser](#laser)
+	- [Ein-/ausschalten](#ein-ausschalten)
+		- [Einschalten](#einschalten)
+		- [Ausschalten](#ausschalten)
+	- [Daten an Laser senden](#daten-an-laser-senden)
 	- [Manuelles Schneiden](#manuelles-schneiden)
+- [Sonstiges](#sonstiges)
 	- [Schmauchspuren](#schmauchspuren)
+		- [Schmauchspuren vermeiden](#schmauchspuren-vermeiden)
+			- [Weitere Informationen](#weitere-informationen)
 - [FAQ](#faq)
 - [Links zu weiterführender Dokumentation](#links-zu-weiterführender-dokumentation)
 
