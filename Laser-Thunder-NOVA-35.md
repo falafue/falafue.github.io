@@ -2,14 +2,9 @@
 
 **Todo**
 
-- Vorbereitung der Dateien
-	- Farben für Laserprofile
-	- Parameter
-	- Daten an Laser senden
 - Lasern
 	- Allgemein
 		- Bedienelemente
-		- Dateien löschen
 	- Material fokusieren
 	- Startposition
 	- Box abfahren
@@ -75,7 +70,9 @@ Die Mehrzahl von uns verwendet [InkScape][InkScape], da es eine Integration mit 
 
 Auch das Lasern von Bild-/Bitmapdaten ist möglich, z.B. wenn graviert werden soll.
 
-### Profile und Farben
+Aufbereitete Daten mit zugewiesenem [Mapping](#mapping) können mit [VisiCut][VisiCut] direkt [an den Laser gesendet](#daten-an-laser-senden) werden.
+
+### Mapping
 
 Alle definierten Profile werden in der Reihenfolge abgearbeitet, wie diese im Mapping in [VisiCut][VisiCut] definiert wurden. Sinnvollerweise beginnt man mit dem gravieren und markieren, zum Schluss schneidet man. 
 
@@ -95,9 +92,11 @@ Für die unterschiedlichen Bearbeitungsmöglichkeiten durch den Laser wird folge
 
 Sollen Teile passgenau gefertigt werden, ist die Breite des Laserstrahls mit ~0,2 mm bereits bei der Datenerstellung zu berücksichtigen.
 
-## Laser ein-/ausschalten
+## Laser
 
-### Einschalten
+### Ein-/ausschalten
+
+#### Einschalten
 
 1. Kompressor für Laser-Zuluft einschalten (Dreierblock Sicherungen im Sicherungsschrank neben der Theke)
 2. Abluft im Nebenraum einschalten (Wippschalter an der Steckdose)
@@ -106,14 +105,19 @@ Sollen Teile passgenau gefertigt werden, ist die Breite des Laserstrahls mit ~0,
 4. Roten Reset-Knopf drücken (oberhalb des Displays) - Signallampe wird grün, interner Rechner wird gestartet
 5. Dateien können übertragen werden
 
-### Ausschalten
+#### Ausschalten
 
 Das Ausschalten erfolgt in umgekehrter Reihenfolge zum [Einschalten](#einschalten).
 
-## Laser starten und verwenden
-	### Bedienelemente 
-	### Daten an Laser senden
-		#### Löschen von Daten
+
+### Daten an Laser senden
+
+Daten sollten nur an den Laser gesendet werden, wenn man an der Maschine steht. Möglicherweise bedient gerade ein anderer den Laser und bekommt nicht mit, dass "fremde" Daten übermittelt wurden...
+
+Mit [VisiCut][VisiCut] sendet man die Daten an den Laser. Wichtig vor der Übermittlung ist, auf das Mapping sowie das zu lasernde Material (inkl. Stärke) zu achten, damit am Laser die richtige Geschwindigkeit sowie die korrekten Energie (Power) Werte eingestellt werden.
+
+An den Laser gesendete Daten sammeln sich im Speicher und werden nicht automatisch gelöscht. Maximal 100 Dateien kann der Speicher beinhalten und muss dann bereinigt werden, um neue Daten anzunehmen.
+
 	### Material einlegen
 		#### Fokusieren (Höhe des Materials)
 	### Startposition festlegen/Positionierung des Lasers
@@ -136,6 +140,11 @@ Wichtig beim manuellen Schneiden ist, dass die Zuluft von Hand eingeschaltet wer
 5. Zuluft einschalten - Knopf links am Laser für 5 Sek. drücken
 6. _Laser_ Button an Display drücken und halten
 7. Laserstrahl mit Cursortasten am Display entsprechend verfahren
+
+
+
+
+## Sonstiges
 
 ### Schmauchspuren
 
@@ -163,13 +172,8 @@ Weitere Informationen über optimiertes CO2-Laserschneiden finden sich im Artike
 > Die Absaugung muss also direkt am Schnittspalt erfolgen. Gute Absaugtechniken saugen die Gase nicht ausschließlich 
 > nach unten weg, sondern gleichzeitig nach oben, und das möglichst gleichmäßig und parallel zum Laserstrahl.
 
-
-
------------------------------------------------
-
-
-
 ## FAQ
+
 Nachfolgend die häufigsten Fragen und Antworten im Umgang mit dem Thunder Laser NOVA 35.
 
 **Wieso startet der Laser nicht, wenn ich auf "Start-Pause" drücke?**  
