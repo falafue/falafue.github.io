@@ -34,13 +34,9 @@
 
 - [Sicherheitshinweise](#sicherheitshinweise)
 - [Material](#material)
-- [Vorbereitung](#vorbereitung)
-	- Daten aufbereiten
-		- Profile berücksichtigen (Schneiden, Gravieren, ...)
-		- Reihenfolge der Profile in VisiCut
-	- Materialwahl
-		- Werte für Schneiden, Gravieren, Markieren, ...
-	- Toleranzen beim Schneiden
+- [Daten aufbereiten](#daten-aufbereiten)
+	- [Profile und Farben](#profile-und-farben)
+	- [Toleranzen](#toleranzen)
 - [Laser ein-/ausschalten](#laser-ein-ausschalten)
 	- [Einschalten](#einschalten)
 	- [Ausschalten](#ausschalten)
@@ -72,13 +68,32 @@ Für Holz (z.B. Sperrholz Birke) gilt, dass **B-Qualität** vollkommen ausreiche
 
 Weitere nützliche Informationen zu Materialien sind unter anderem auf den [Wiki-Seiten des FabLab Nürnberg][MöglicheMaterialien] zu finden.
 
-## Vorbereitung
-	### Daten aufbereiten
-		#### Profile berücksichtigen (Schneiden, Gravieren, ...)
-		#### Reihenfolge der Profile in VisiCut
-	### Materialwahl
-		#### Werte für Schneiden, Gravieren, Markieren, ...
-	### Toleranzen beim Schneiden
+## Daten aufbereiten
+
+Für die Erstellung der zu lasernden Daten kann jedes beliebige Programm verwendet werden welches Vektoren z.B. als SVG exportieren kann.
+Die Mehrzahl von uns verwendet [InkScape][InkScape], da es eine Integration mit dem Laserprogramm [VisiCut][VisiCut] gibt.
+
+Auch das Lasern von Bild-/Bitmapdaten ist möglich, z.B. wenn graviert werden soll.
+
+### Profile und Farben
+
+Alle definierten Profile werden in der Reihenfolge abgearbeitet, wie diese im Mapping in [VisiCut][VisiCut] definiert wurden. Sinnvollerweise beginnt man mit dem gravieren und markieren, zum Schluss schneidet man. 
+
+Geschnitten wird nach dem Prinzip "Inside-Out", also immer von innen nach außen.
+
+Für die unterschiedlichen Bearbeitungsmöglichkeiten durch den Laser wird folgendes Mapping (Profil zu Farbe) vorgeschlagen.
+
+| Profil       | VisiCut    | Farbe    | Typ            | Hinweise                                               |
+|--------------|------------|----------|----------------|--------------------------------------------------------|
+| 3D gravieren | engrave 3d | andere   | Fläche, Bitmap |                                                        |
+| gravieren    | engrave    | schwarz  | Fläche, Bitmap | Auflösung um die 200 dpi ist meist ausreichend         |
+| markieren    | mark       | grün     | Linie          | Linien oder Konturen werden nur oberflächlich markiert |
+| ignorieren   | ignore     | blau     | -              |                                                        |
+| schneiden    | cut        | rot      | Linie          | Material-Parameter zum (Durch)Schneiden setzen         |
+
+### Toleranzen
+
+Sollen Teile passgenau gefertigt werden, ist die Breite des Laserstrahls mit ~0,2 mm bereits bei der Datenerstellung zu berücksichtigen.
 
 ## Laser ein-/ausschalten
 
@@ -88,7 +103,7 @@ Weitere nützliche Informationen zu Materialien sind unter anderem auf den [Wiki
 2. Abluft im Nebenraum einschalten (Wippschalter an der Steckdose)
 	- Motorgeräusche sind zu hören (evtl. dauert es kurz)
 3. Laser einschalten (rechts unten), Hauptschalter und die beiden Wippschalter müssen auf 1 stehen
-4. Roten Reset-Knopf drücken (oberhalb des Displays) - Signallampe wird grün
+4. Roten Reset-Knopf drücken (oberhalb des Displays) - Signallampe wird grün, interner Rechner wird gestartet
 5. Dateien können übertragen werden
 
 ### Ausschalten
@@ -184,10 +199,13 @@ Die maximal mögliche Materialstärke zum Schneiden beträgt ca. **8 mm**.
 - FabLab Nürnberg
 	- [NOVA 35 Dokumentation](https://wiki.fablab-nuernberg.de/w/Nova_35)
 	- [Mögliche Materialien][MöglicheMaterialien]
-- [VisiCut](https://github.com/fablabnbg/VisiCut) - Programm zum aufbereiten von Laserjobs
+- [VisiCut][VisiCut] - Programm zum aufbereiten von Laserjobs
 - Anleitung für [RDworks](https://raw.githubusercontent.com/jnweiger/ruida-laser/master/doc/laser-nova35-rdworks.md) (LaserCutter Software des Herstellers - [zum Download](http://www.thunderlaser.com/laser-download))
 
 
 
 
+
 [MöglicheMaterialien]: https://wiki.fablab-nuernberg.de/w/ZING_4030#M.C3.B6gliche_Materialien
+[InkScape]: https://inkscape.org/de
+[VisiCut]: https://github.com/fablabnbg/VisiCut
