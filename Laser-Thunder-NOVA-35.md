@@ -39,9 +39,7 @@
 	- [Daten an Laser senden](#daten-an-laser-senden)
 	- [Manuelles Schneiden](#manuelles-schneiden)
 - [Sonstiges](#sonstiges)
-	- [Schmauchspuren](#schmauchspuren)
-		- [Schmauchspuren vermeiden](#schmauchspuren-vermeiden)
-			- [Weitere Informationen](#weitere-informationen)
+	- [Schmauchspuren (vermeiden)](#schmauchspuren)
 - [FAQ](#faq)
 - [Links zu weiterführender Dokumentation](#links-zu-weiterführender-dokumentation)
 
@@ -119,7 +117,6 @@ An den Laser gesendete Daten sammeln sich im Speicher und werden nicht automatis
 	### Unterbrechung, Fortsetzen
 	### Änderung der Werte (Geschwindigkeit, Energie, Zuluft, ...)
 
-## Sonstiges
 
 ### Manuelles Schneiden
 
