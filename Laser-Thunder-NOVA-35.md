@@ -27,7 +27,7 @@
 
 ## Inhaltsverzeichnis
 
-- [Sicherheitshinweise](#:warning:-sicherheitshinweise)
+- [Sicherheitshinweise](#warning-sicherheitshinweise)
 - [Material](#material)
 - [Daten aufbereiten](#daten-aufbereiten)
 	- [Mapping](#mapping)
@@ -186,7 +186,7 @@ An die gewünschte Startposition fahren und auf den Button "Startposition" klick
 Auf der linken Seite des Lasers den Knopf für 5 Sekunden drücken und dann loslassen.
 
 **Wie groß ist die _Schnittbreite_ des Laserstrahls?**  
-Die Schnittbreite beträgt **~ 0,2 mm**.
+Die Schnittbreite beträgt **~0,2 mm**.
 
 **Bis zu welcher Materialdick kann der Laser schneiden?**  
 Die maximal mögliche Materialstärke zum Schneiden beträgt ca. **8 mm**.
