@@ -5,12 +5,13 @@
 - Lasern
 	- Allgemein
 		- Bedienelemente
-	- Material fokusieren
 	- Startposition
 	- Box abfahren
 	- Start des Laserprogramms
 	- Paramerter prüfen/anpassen
 		- Geschwindigkeit, Power, Zuluft, ...
+- Technische Daten
+	- Maximales Format
 
 ---------------------------------------------
 
@@ -34,9 +35,9 @@
 	- [Toleranzen](#toleranzen)
 - [Laser](#laser)
 	- [Ein-/ausschalten](#ein-ausschalten)
-		- [Einschalten](#einschalten)
-		- [Ausschalten](#ausschalten)
 	- [Daten an Laser senden](#daten-an-laser-senden)
+	- [Material einlegen und fokusieren](#material-einlegen-und-fokusieren)
+
 	- [Manuelles Schneiden](#manuelles-schneiden)
 - [Sonstiges](#sonstiges)
 	- [Schmauchspuren (vermeiden)](#schmauchspuren)
@@ -110,12 +111,41 @@ Mit [VisiCut][VisiCut] sendet man die Daten an den Laser. Wichtig vor der Überm
 
 An den Laser gesendete Daten sammeln sich im Speicher und werden nicht automatisch gelöscht. Maximal 100 Dateien kann der Speicher beinhalten und muss dann bereinigt werden, um neue Daten anzunehmen.
 
-	### Material einlegen
-		#### Fokusieren (Höhe des Materials)
+### Material einlegen und fokusieren
+
+#### Material einlegen
+
+Wenn ein Material eingelegt wird, muss darauf geachtet werden, dass die Laseroptik weit genug über dem Material steht, damit kein Schäden beim Verfahren oder Einlegen entstehen (siehe [Material fokusieren](#material-fokusieren)).
+
+#### Material fokusieren
+
+Um einen Crash der Laseroptik zu vermeiden, muss das Material korrekt fokusiert sein. Ein positiver Nebeneffekt ist eine saubere Schnittkante, da der Brennpunkt durch die Fokusierung auf die Oberfläche des Materials gesetzt wird.
+
+Dazu fürht man folgende Schritte aus:
+
+1. Darauf achten, dass **genügend zwischen Laseroptik und Material** ist, ggf. den Tisch nach unten fahren
+2. Material flach auf den Tisch legen
+3. `Z/U` drücken, das öffnet das Menü
+4. `Auto focus` auswählen und `Enter` drücken
+5. Tisch fährt automatisch hoch/runter
+
+Zwar kann in VisiCut ebenfalls ein Wert für den Fokus eingegeben werden, jedoch sind das nur Korrekturwerte. Sie beziehen sich auf die fokusierte Optik an der Maschine und stellen relative Änderungen dar. Der Wert sollte immer auf 0 mm stehen!
+
+	
+
+
+
 	### Startposition festlegen/Positionierung des Lasers
 	### Programm starten/stoppen
+		Sind die Daten am Laser angekommen und alle Vorbereitungen getroffen, sollte vor dem Start des Programms noch einmal kontrolliert werden, dass rechts oben im Display auch der eigene Dateiname steht.
+
 	### Unterbrechung, Fortsetzen
 	### Änderung der Werte (Geschwindigkeit, Energie, Zuluft, ...)
+
+	### Bedienelemente 
+
+
+
 
 
 ### Manuelles Schneiden
@@ -131,9 +161,6 @@ Wichtig beim manuellen Schneiden ist, dass die Zuluft von Hand eingeschaltet wer
 5. Zuluft einschalten - Knopf links am Laser für 5 Sek. drücken
 6. _Laser_ Button an Display drücken und halten
 7. Laserstrahl mit Cursortasten am Display entsprechend verfahren
-
-
-
 
 ## Sonstiges
 
