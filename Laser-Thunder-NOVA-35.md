@@ -5,8 +5,6 @@
 - Lasern
 	- Allgemein
 		- Bedienelemente
-	- Startposition
-	- Box abfahren
 	- Start des Laserprogramms
 	- Paramerter prüfen/anpassen
 		- Geschwindigkeit, Power, Zuluft, ...
@@ -37,6 +35,7 @@
 	- [Ein-/ausschalten](#ein-ausschalten)
 	- [Daten an Laser senden](#daten-an-laser-senden)
 	- [Material einlegen und fokusieren](#material-einlegen-und-fokusieren)
+	- [Startposition festlegen](#startposition-festlegen)
 
 	- [Manuelles Schneiden](#manuelles-schneiden)
 - [Sonstiges](#sonstiges)
@@ -131,11 +130,28 @@ Dazu fürht man folgende Schritte aus:
 
 Zwar kann in VisiCut ebenfalls ein Wert für den Fokus eingegeben werden, jedoch sind das nur Korrekturwerte. Sie beziehen sich auf die fokusierte Optik an der Maschine und stellen relative Änderungen dar. Der Wert sollte immer auf 0 mm stehen!
 
-	
+### Startposition festlegen
+
+Nachdem das Material fokusiert wurde, muss die Startposition des Lasers gesetzt werden. Dazu fährt man den Laser (roter Punkt) an den gewünschten Punkt auf dem Material.
+
+Der Startpunkt ist immer die linke obere Ecke. Auch in VisiCut muss der Nullpunkt (Position) auf die linke obere Ecke gesetzt sein - evtl. Daten noch mal übertagen!
+
+So setzt man den Startpunkt:
+
+1. Startposition ist, wie in VisiCut eingestellt, immer die linke obere Ecke
+2. Positionierung durch...
+	1. manuelles verschieben des Materials
+	2. verfahren des Laseroptik mit den Cursortasten
+3. Button `Start Position` drücken
+4. `Box` drücken, um die äußeren Konturen der Daten visuell abzufahren
+5. (optional) Neupositionierung: Zurück zu Punkt 2.
+
+Punkt 4. dient zur Kontrolle, ob die Startposition passt und die zu lasernden Daten auch vollständig auf das Material passen
 
 
 
-	### Startposition festlegen/Positionierung des Lasers
+
+
 	### Programm starten/stoppen
 		Sind die Daten am Laser angekommen und alle Vorbereitungen getroffen, sollte vor dem Start des Programms noch einmal kontrolliert werden, dass rechts oben im Display auch der eigene Dateiname steht.
 
