@@ -8,8 +8,6 @@
 	- Start des Laserprogramms
 	- Paramerter prüfen/anpassen
 		- Geschwindigkeit, Power, Zuluft, ...
-- Technische Daten
-	- Maximales Format
 
 ---------------------------------------------
 
@@ -27,6 +25,8 @@
 ## Inhaltsverzeichnis
 
 - [Sicherheitshinweise](#warning-sicherheitshinweise)
+- [Allgemein](#allgemein)
+	- [Technische Daten](#technische-daten)
 - [Material](#material)
 - [Daten aufbereiten](#daten-aufbereiten)
 	- [Mapping](#mapping)
@@ -42,6 +42,15 @@
 	- [Schmauchspuren (vermeiden)](#schmauchspuren)
 - [FAQ](#faq)
 - [Links zu weiterführender Dokumentation](#links-zu-weiterführender-dokumentation)
+
+## Allgemein
+
+### Technische Daten
+
+| Arbeitsfläche        |  900 x 600 mm |                    |
+| Tischgröße           | 1000 x 730 mm |                    |
+| Z-Höhe               |        230 mm | max. Materialdicke |
+| max. Materialgewicht |         40 kg |                    |
 
 ## Material
 
