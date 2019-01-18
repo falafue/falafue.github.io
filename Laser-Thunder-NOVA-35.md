@@ -20,6 +20,7 @@
 ## Inhaltsverzeichnis
 
 - [Sicherheitshinweise](#warning-sicherheitshinweise)
+- [Inhaltsverzeichnis](#inhaltsverzeichnis)
 - [Allgemein](#allgemein)
 	- [Technische Daten](#technische-daten)
 - [Material](#material)
@@ -32,12 +33,10 @@
 	- [Material einlegen und fokusieren](#material-einlegen-und-fokusieren)
 	- [Startposition festlegen](#startposition-festlegen)
 	- [Programm starten](#programm-starten)
-		- [Start](#start)
-		- [Unterbrechung](#unterbrechung)
-		- [Ändern des Parameter](#ändern-des-parameter)
+	- [Ändern der Parameter](#ändern-der-parameter)
 	- [Manuelles Schneiden](#manuelles-schneiden)
 - [Sonstiges](#sonstiges)
-	- [Schmauchspuren (vermeiden)](#schmauchspuren)
+	- [Schmauchspuren vermeiden](#schmauchspuren vermeiden)
 - [FAQ](#faq)
 - [Links zu weiterführender Dokumentation](#links-zu-weiterführender-dokumentation)
 
@@ -61,7 +60,6 @@
 Ansonsten lässt sich (fast) jedes organische Material mehr oder minder problemlos bis zu einer Dicke von ungefähr 8 mm verarbeiten. Für dickere Materialien sind Tests zu machen. Durchaus sind auch 12 mm möglich, wenn man die Geschwindigkeit entsprechend reduziert und die Leistung erhöht.
 
 Für Holz (z.B. Sperrholz Birke) gilt, dass **B-Qualität** vollkommen ausreichend ist. Beim Kauf sollte man auf **Laserqualität** achten, da hier keine ungewollten Einschlüsse, wie z.B. Kleber bei "Löchern" zwischen den einzelnen Materialschichten, vorhanden sind.
-
 
 :fire: Wellpappe kann man, sollte man aber nicht schneiden! Wellpappe hat die Angewohnheit sehr gerne das Brennen anzufangen, wenn die Klappe geöffnet wird und somit Sauerstoff zugeführt wird.
 
@@ -174,6 +172,8 @@ Bevor das Programm zum lasern gestartet wird, sollte noch einmal die folgende Ch
 4. Ggf. Box abgefahren?
 5. Daten am Laser angekomen?
 
+_Prinzipiell ist das Lasern auch ohne eingelegtes Material möglich, z.B. wenn man einen "Leerlauf" machen möchte. Die Maschine wird dabei nicht geschädigt._
+
 #### Start
 
 Wenn alles OK ist, dann kann das Laserprogramm mit dem **Start-Pause** Knopf gestartet werden.
@@ -186,7 +186,7 @@ Lichtblitze beim Lasern sind OK und ein gutes Zeichen dafür, dass das Material 
 
 Das Programm kann jederzeit pausiert bzw. gestoppt werden. Dazu klickt man einfach wieder auf den **Start-Pause** Knopf.
 
-#### Ändern des Parameter
+### Ändern der Parameter
 
 Während das Programm läuft, können die Parameter Geschwindigkeit, Power und Zuluft jederzeit verändert werden.
 
@@ -206,11 +206,9 @@ Wichtig beim manuellen Schneiden ist, dass die Zuluft von Hand eingeschaltet wer
 
 ## Sonstiges
 
-### Schmauchspuren
+### Schmauchspuren vermeiden
 
 Schmauchspuren auf der Unterseite eines Werkstücks entstehen, wenn der Laser auf die Wabenstruktur des Tisches auftrifft.
-
-#### Schmauchspuren vermeiden
 
 Um Schmauchspuren zu vermeiden oder zu vermindern, gibt es unter anderem folgende Möglichkeiten:
 
