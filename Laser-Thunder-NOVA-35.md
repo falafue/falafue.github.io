@@ -1,11 +1,3 @@
-![DRAFT](https://img.shields.io/badge/Status-ENTWURF-red.svg)
-
-**Todo**
-
-- Reinigung der Optik
-
----------------------------------------------
-
 # Laser Thunder NOVA 35
 
 ## :warning: Sicherheitshinweise
