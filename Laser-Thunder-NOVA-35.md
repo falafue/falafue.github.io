@@ -243,6 +243,9 @@ Deckel schließen, Reset-Knopf drücken und mit den Cursor-Tasten von Hand an di
 **Wie setze ich die Startposition für meine Datei?**  
 An die gewünschte Startposition fahren und auf den Button "Startposition" klicken. Bitte vor dem Lasern nicht vergessen den Fokus zu setzen.
 
+**Warum startet der Laser nicht an der Position, wo der rote Laserpunkt zu sehen ist?**  
+Es muss die "Startposition" über den Knopf auf dem Display gesetzt werden, damit der Laser am roten Punkt startet.
+
 **Wie schalte ich die Zuluft von Hand ein?**  
 Auf der linken Seite des Lasers den Knopf für 5 Sekunden drücken und dann loslassen.
 
@@ -251,6 +254,9 @@ Die Schnittbreite beträgt **~0,2 mm**.
 
 **Bis zu welcher Materialdick kann der Laser schneiden?**  
 Die maximal mögliche Materialstärke zum Schneiden beträgt ca. **8 mm**.
+
+**Wie groß kann ich lasern?**  
+Es kann auf einer maximalen Arbeitsfläche von 900 x 600 mm gelasert werden. Der Tisch hat eine Größe von 1000 x 730 mm.
 
 ## Links zu weiterführender Dokumentation
 
