@@ -1,3 +1,5 @@
+<small><table width=100%><tr><td align=right>jw, 20190117</td></tr></table>
+
 Mr Beam II MrBeam-30FE
 ======================
 
