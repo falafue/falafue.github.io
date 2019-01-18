@@ -2,12 +2,7 @@
 
 **Todo**
 
-- Lasern
-	- Allgemein
-		- Bedienelemente
-	- Start des Laserprogramms
-	- Paramerter prüfen/anpassen
-		- Geschwindigkeit, Power, Zuluft, ...
+- Reinigung der Optik
 
 ---------------------------------------------
 
@@ -36,7 +31,10 @@
 	- [Daten an Laser senden](#daten-an-laser-senden)
 	- [Material einlegen und fokusieren](#material-einlegen-und-fokusieren)
 	- [Startposition festlegen](#startposition-festlegen)
-
+	- [Programm starten](#programm-starten)
+		- [Start](#start)
+		- [Unterbrechung](#unterbrechung)
+		- [Ändern des Parameter](#ändern-des-parameter)
 	- [Manuelles Schneiden](#manuelles-schneiden)
 - [Sonstiges](#sonstiges)
 	- [Schmauchspuren (vermeiden)](#schmauchspuren)
@@ -157,21 +155,35 @@ So setzt man den Startpunkt:
 
 Punkt 4. dient zur Kontrolle, ob die Startposition passt und die zu lasernden Daten auch vollständig auf das Material passen
 
+### Programm starten
 
+_Während des Laserns immer an der Maschine bleiben, damit im Problemfall schnell eingegriffen werden kann._
 
+Im Display rechts oben steht der Dateiname, welchen du beim Übertragen aus VisiCut an den Laser eingegeben hast. Links oben ist noch eine kleine Vorschau der Daten zu sehen.
 
+Bevor das Programm zum lasern gestartet wird, sollte noch einmal die folgende Checkliste durchgegangen werden damit nichts schief geht:
 
-	### Programm starten/stoppen
-		Sind die Daten am Laser angekommen und alle Vorbereitungen getroffen, sollte vor dem Start des Programms noch einmal kontrolliert werden, dass rechts oben im Display auch der eigene Dateiname steht.
+1. Material plan eingelegt?
+2. Laseroptik fokusiert?
+3. Startposition festgelegt?
+4. Ggf. Box abgefahren?
+5. Daten am Laser angekomen?
 
-	### Unterbrechung, Fortsetzen
-	### Änderung der Werte (Geschwindigkeit, Energie, Zuluft, ...)
+#### Start
 
-	### Bedienelemente 
+Wenn alles OK ist, dann kann das Laserprogramm mit dem **Start-Pause** Knopf gestartet werden.
 
+Als erstes sollte die Zuluft und Abluft überprüft und ggf. nachjustiert werden, so dass Feuer- und Rauchbildung beim Lasern vermieden wird.
 
+Lichtblitze beim Lasern sind OK und ein gutes Zeichen dafür, dass das Material komplett durchgeschnitten wird (Laserstrahl trifft auf Wabenstruktur des Gitters). Wenn der Laserstrahl gleichmäßig weiß leuchtet, dann wird ziemlich wahrscheinlich nicht durchgeschnitten.
 
+#### Unterbrechung
 
+Das Programm kann jederzeit pausiert bzw. gestoppt werden. Dazu klickt man einfach wieder auf den **Start-Pause** Knopf.
+
+#### Ändern des Parameter
+
+Während das Programm läuft, können die Parameter Geschwindigkeit, Power und Zuluft jederzeit verändert werden.
 
 ### Manuelles Schneiden
 
