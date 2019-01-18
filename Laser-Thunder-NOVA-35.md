@@ -10,7 +10,7 @@
 
 ## :warning: Sicherheitshinweise
 
-:no_entry_sign: Arbeiten am Laser dürfen nur nach vorheriger Einweisung ausgeführt werden!
+**Arbeiten am Laser dürfen nur nach vorheriger Einweisung ausgeführt werden!**
 
 - Während der Laser läuft, immer dabei stehen bleiben
 - CO² Feuerlöscher steht für den Brandfall neben der Maschine
@@ -54,11 +54,16 @@
 
 :skul: Nicht jedes Material kann und darf mit dem Laser bearbeitet werden. Diverse Kunststoffe entwickeln unter Hitze giftie Gase und/oder Säuren.
 
-:warning: Zur eigenen Sicherheit und der anderen Benutzer im FabLab sollte nur **Acrylglas (Plexiglas, PMMA)** verwendet werden. Zu vermeiden ist auch "Bastelglas" aus dem Baumarkt.
+(Voll-)Holz, Papier, Karton und Acryl (PMMA) stellen überhaupt kein Problem dar und können ohne Bedenken gelasert werden.
 
-Ansonsten lässt sich (fast) jedes organische Material mehr oder minder problemlos bis zu einer Dicke von ungefähr 8 mm verarbeiten.
+:warning: Zur eigenen Sicherheit und der anderen Benutzer im FabLab sollte aber nur **Acrylglas (Plexiglas, PMMA)** verwendet werden. Zu vermeiden ist unter anderem "Bastelglas" aus dem Baumarkt.
+
+Ansonsten lässt sich (fast) jedes organische Material mehr oder minder problemlos bis zu einer Dicke von ungefähr 8 mm verarbeiten. Für dickere Materialien sind Tests zu machen. Durchaus sind auch 12 mm möglich, wenn man die Geschwindigkeit entsprechend reduziert und die Leistung erhöht.
 
 Für Holz (z.B. Sperrholz Birke) gilt, dass **B-Qualität** vollkommen ausreichend ist. Beim Kauf sollte man auf **Laserqualität** achten, da hier keine ungewollten Einschlüsse, wie z.B. Kleber bei "Löchern" zwischen den einzelnen Materialschichten, vorhanden sind.
+
+
+:fire: Wellpappe kann man, sollte man aber nicht schneiden! Wellpappe hat die Angewohnheit sehr gerne das Brennen anzufangen, wenn die Klappe geöffnet wird und somit Sauerstoff zugeführt wird.
 
 Weitere nützliche Informationen zu Materialien sind unter anderem auf den [Wiki-Seiten des FabLab Nürnberg][MöglicheMaterialien] zu finden.
 
