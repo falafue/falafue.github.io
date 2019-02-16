@@ -36,6 +36,8 @@
 
 ### Technische Daten
 
+|                      | Maße/Wert     | Hinweise           |
+|----------------------|--------------:|--------------------|
 | Arbeitsfläche        |  900 x 600 mm |                    |
 | Tischgröße           | 1000 x 730 mm |                    |
 | Z-Höhe               |        230 mm | max. Materialdicke |
