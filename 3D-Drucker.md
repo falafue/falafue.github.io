@@ -23,9 +23,9 @@ Slicer-Software Test auf [Heise.de (c't 4/2019 S. 114)](https://www.heise.de/sel
 - [Raise3D's ideaMaker](https://www.raise3d.com/pages/ideamaker)
 - [Slic3r](https://slic3r.org/)
 
-## Raise 3D N2
+## Raise3D N2
 
-- [Raise 3D Website](https://www.raise3d.com/)
+- [Raise3D Website](https://www.raise3d.com/)
 
 
 ## ANYCUBIC Photon
