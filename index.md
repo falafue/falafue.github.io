@@ -1,5 +1,6 @@
-# doc
-Lab Dokumentation, Maschinen-Anleitungen, ....
+# Dokumentation für das Fablab Fürth
+
+Auf der Seite [https://falafue.github.io/](https://falafue.github.io/) finden sich die Dokumentaionen für unser Lab, Anleitungen zu Maschinen, Materialien, ...
 
 ## Laser
 
@@ -11,8 +12,10 @@ Lab Dokumentation, Maschinen-Anleitungen, ....
 - [Raise3D N2](3D-Drucker.md#raise3d-n2)
 - [ANYCUBIC Photon](3D-Drucker.md#anycubic-photon)
 
-## convert markdown to html
-This can be done on the fly via
-https://github.com/oscarmorrison/md-page
+---
 
-maybe even fully dynamic, or via travis?
+## Informationen
+
+### Markdown to HTML
+
+Markdown wird von [GitHub Pages](https://pages.github.com) direkt in HTML übersetzt. Dazu wird in dessen Backend [Jekyll](https://jekyllrb.com) verwendet.
