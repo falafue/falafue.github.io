@@ -16,6 +16,13 @@ Auf der Seite [https://falafue.github.io/](https://falafue.github.io/) finden si
 
 ## Informationen
 
+Nachfolgend finden sich weitere Informationen zu GitHub Pages, Jekyll und dessen Plugins, welche für das Deployment sowie die Anzeige dieser Dokumentationsseiten hilfreich sind.
+
 ### Markdown to HTML
 
 Markdown wird von [GitHub Pages](https://pages.github.com) direkt in HTML übersetzt. Dazu wird in dessen Backend [Jekyll](https://jekyllrb.com) verwendet.
+
+#### Jekyll Plugins
+
+- https://jekyllrb.com/docs/plugins/installation/
+- https://help.github.com/en/articles/emoji-on-github-pages
