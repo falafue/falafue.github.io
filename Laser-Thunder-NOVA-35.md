@@ -36,6 +36,8 @@
 
 ### Technische Daten
 
+|                      | Maße/Wert     | Hinweise           |
+|----------------------|--------------:|--------------------|
 | Arbeitsfläche        |  900 x 600 mm |                    |
 | Tischgröße           | 1000 x 730 mm |                    |
 | Z-Höhe               |        230 mm | max. Materialdicke |
@@ -92,7 +94,8 @@ Sollen Teile passgenau gefertigt werden, ist die Breite des Laserstrahls mit ~0,
 
 #### Einschalten
 
-1. Kompressor für Laser-Zuluft einschalten (Dreierblock Sicherungen im Sicherungsschrank neben der Theke)
+1. Kompressor für Laser-Zuluft über den Schlüsselschalter (Sicherungsschrank neben der Theke) einschalten
+![](images/Laser-Kompressor.jpg)
 2. Abluft im Nebenraum einschalten (Wippschalter an der Steckdose)
 	- Motorgeräusche sind zu hören (evtl. dauert es kurz)
 3. Laser einschalten (rechts unten), Hauptschalter und die beiden Wippschalter müssen auf 1 stehen

@@ -1,8 +1,3 @@
-# doc
-Lab Dokumentation, Maschinen-Anleitungen, ....
+# DokumentationDokumentation für das Fablab Fürth
 
-## convert markdown to html
-This can be done on the fly via
-https://github.com/oscarmorrison/md-page
-
-maybe even fully dynamic, or via travis?
+Hier geht es zur [Startseite (falafue.github.io)](https://falafue.github.io/)
