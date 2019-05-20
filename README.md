@@ -1,3 +1,3 @@
-# DokumentationDokumentation für das Fablab Fürth
+# Dokumentation für das Fablab Fürth
 
-Hier geht es zur [Startseite (falafue.github.io)](https://falafue.github.io/)
+Hier geht es zur [Startseite der Dokumentation)](https://falafue.github.io/)
