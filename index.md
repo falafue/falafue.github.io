@@ -1,6 +1,6 @@
 # Dokumentation für das Fablab Fürth
 
-Auf der Seite [https://falafue.github.io/](https://falafue.github.io/) finden sich die Dokumentaionen für unser Lab, Anleitungen zu Maschinen, Materialien, ...
+Auf der Seite [https://falafue.github.io/](https://falafue.github.io/) finden sich die Dokumentationen für unser Lab, Anleitungen zu Maschinen, Materialien, ...
 
 ## Laser
 
@@ -15,6 +15,8 @@ Auf der Seite [https://falafue.github.io/](https://falafue.github.io/) finden si
 ---
 
 ## Informationen
+
+Änderungen, Verbesserungen, Anregungen bitte unter https://github.com/falafue/falafue.github.io/issues/new eintragen.
 
 Nachfolgend finden sich weitere Informationen zu GitHub Pages, Jekyll und dessen Plugins, welche für das Deployment sowie die Anzeige dieser Dokumentationsseiten hilfreich sind.
 
