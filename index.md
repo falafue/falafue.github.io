@@ -5,7 +5,7 @@ Auf der Seite [https://falafue.github.io/](https://falafue.github.io/) finden si
 ## Laser
 
 - [Thunder Laser NOVA 35](Laser-Thunder-NOVA-35.md)
-- [Laser Mr.Beam](Laser-Thunder-NOVA-35.md)
+- [Laser Mr.Beam](Laser-MrBeam.md)
 
 ## [3D Drucker](3D-Drucker.md)
 
